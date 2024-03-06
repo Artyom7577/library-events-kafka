@@ -1,3 +1,4 @@
 # library-events-kafka-project
-# library-events-kafka
-# library-events-kafka
+
+
+docker-compose -f docker-compose-multi-broker.yml up  
