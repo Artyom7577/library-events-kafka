@@ -13,23 +13,6 @@ curl -i \
 -X PUT http://localhost:8080/v1/libraryevent
 
 curl -i \
--d '{"libraryEventId":2,"libraryEventType": "UPDATE","book":{"bookId":456,"bookName":"Kafka Using Spring Boot 2.X","bookAuthor":"Dilip"}}' \
--H "Content-Type: application/json" \
--X PUT http://localhost:8080/v1/libraryevent
-
-PUT WITH ID
----------------------
-curl -i \
--d '{"libraryEventId":123,"libraryEventType": "UPDATE","book":{"bookId":456,"bookName":"Kafka Using Spring Boot","bookAuthor":"Dilip"}}' \
--H "Content-Type: application/json" \
--X PUT http://localhost:8080/v1/libraryevent
-
-curl -i \
--d '{"libraryEventId":999,"libraryEventType": "UPDATE","book":{"bookId":456,"bookName":"Kafka Using Spring Boot","bookAuthor":"Dilip"}}' \
--H "Content-Type: application/json" \
--X PUT http://localhost:8080/v1/libraryevent
-
-curl -i \
 -d '{"libraryEventId":2,"libraryEventType": "UPDATE","book":{"bookId":456,"bookName":"Kafka Using Spring Boot","bookAuthor":"Dilip"}}' \
 -H "Content-Type: application/json" \
 -X PUT http://localhost:8080/v1/libraryevent
