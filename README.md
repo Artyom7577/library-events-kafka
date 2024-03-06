@@ -6,6 +6,7 @@ This project demonstrates a simple Kafka event streaming system with H2 database
 
 - Docker
 - Docker Compose
+- Spring Boot
 - JDK 17
 
 ## Setup
